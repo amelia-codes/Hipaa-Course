@@ -16,4 +16,4 @@ Homepage
 
 
 <h1>#To-Do:</h1>
-Add log-out, fix Typos in presentation
+Add log-out, fix Typos in presentation, fix google oauth bug (that was fixed until I accidentally deleted a line of code), add awknowledgement.html with check box, e signature (I think there is a package for this), fix citations (they show up in notes so they don't need to be on slides), get 3T specific policy for section 5, add progress bar (may be overkill), add debug section to github (for reference)
