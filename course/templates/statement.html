@@ -1,0 +1,67 @@
+<html>
+
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+        body {
+            padding:50px;
+            font-family: 'Arial';
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        3T Health HIPAA Training Course
+      </span>
+    </div>
+  </div>
+</nav>
+        <center>
+<img src="https://nexusla.org/wp-content/uploads/2024/06/3THealth_Original_Color@4x-100-scaled.jpg" alt="logo" width="30%" height="30%"/>
+        </center>
+<body>
+<center>
+<h2><b> 3T Statement of Awknowledgement. </h2></b>
+
+
+
+<div class="form-check" style="margin:0 200px;">
+  <input class="form-check-input" type="checkbox" value="" id="checked">
+  <label class="form-check-label" for="flexCheckDefault">
+    By checking this box, I acknowledge that I’ve completed this HIPAA training and understand my responsibilities as a
+                team member of 3T Health as well as penalties for noncompliance with HIPAA privacy and security rules.
+  </label>
+                </div></br>
+
+
+
+
+<button type="button" onclick="check()">Submit</button><br><br><br>
+</center>
+<script>
+    function check() {
+        if (document.getElementById("checked").checked) {
+        window.location.replace("/certificate");
+        }
+        else {
+        window.alert("Please check the awknowledgement statement.")
+        }}
+</script>
+
+</body>
+</html>
